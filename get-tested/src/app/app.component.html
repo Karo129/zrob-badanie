@@ -1,0 +1,16 @@
+<div class="container">
+  <div class="text-center title">GET TESTED</div>
+  <div class="row">
+    <div class="col-md-6">
+      <app-create-visit (newVisit)="addVisit($event)"></app-create-visit>
+    </div>
+    <div class="col-md-6">
+      <app-list-visit [allvisitlist]="listVisit"></app-list-visit>
+    </div>
+  </div>
+</div>
+
+
+<!-- (clearVisit)="clearedVisit($event) -->
+
+   
